@@ -1,0 +1,26 @@
+Explanation and Key Improvements:
+
+Scanner for Input:
+                  The Scanner class is used to get user input from the console, which is standard practice in Java.
+                  scanner.close() is added to close the resources, preventing resource leaks.
+
+do-while Loop for Menu:
+                  A do-while loop is used to display the menu repeatedly until the user chooses to exit. This ensures the menu is displayed at least once.
+                      
+switch Statement for Choice Handling:
+                  A switch statement is used to handle the user's menu choice, making the code more organized and readable than a series of if-else statements.
+
+Separate Methods for Operations:
+                  The calculateSquare, calculateFactorial, and checkEvenOdd operations are implemented as separate static methods. This improves code modularity and reusability.
+
+Factorial Calculation with Error Handling:
+                  The calculateFactorial method includes a check for negative input, as factorials are not defined for negative numbers.
+                  It uses a long data type for factorial to handle larger factorial values.
+
+Clear Output:
+            The program provides clear and informative output to the user.
+
+Input Validation (Basic):
+            The program validates the menu choice, but more robust input validation (e.g., handling non-integer input) could be added.
+Static Methods:
+            The helper methods are static because they don't depend on any instance variables of the MenuDrivenProgram class. This is appropriate for utility functions.
